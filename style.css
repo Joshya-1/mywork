@@ -1,0 +1,50 @@
+h1{
+    font-size: 32px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-stretch: extra-expanded;
+}
+h2{
+    line-height: 150%;
+    letter-spacing: 1em;
+    text-decoration: underline;
+    background-color: rgb(140, 0, 255);
+    text-shadow: 12px -12px 1px;
+}
+p::first-letter{
+    font-size: 2em;
+    color: greenyellow;
+}
+a:visited{
+    color:blueviolet;
+}
+a:link{
+    color:brown;
+}
+a:hover{
+    color:blueviolet
+}
+a:active{
+    color: paleturquoise;
+}
+a:focus{
+    color:dodgerblue    
+}
+*{
+    background-color: deeppink !important;
+}
+*{
+    background-color: blanchedalmond;
+}
+.cone{
+    text-transform: capitalize;
+    word-spacing: 2em;
+    text-decoration: line-through;
+    text-align: justify;
+}
+h1~h2{
+    color:beige;
+}
+h2+h3{
+    color:green;
+}
